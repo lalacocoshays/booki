@@ -226,12 +226,14 @@ width:67%;
 background-color: #F2F2F2;
 border-radius: 20px 20px 20px 20px;
 }
+
 .hebergementscards{
 display: grid;
 gap:2%;
 grid-template-columns: repeat(3,47%);
 justify-content: center;
 }
+
 .hbcardcontent{
 margin-left: 4%;
 background-color: white;
