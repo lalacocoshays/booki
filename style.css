@@ -35,14 +35,14 @@ font-size: 16px;
 margin-right: 19%;
 }
 
-a{
+#hebergements, #activites{
 text-decoration: none;
 color: black;
 padding-top: 30px;
 border-top: 4px solid transparent;
 }
 
-a:hover{
+#hebergements:hover, #activites:hover {
 color: #0096FF;
 border-top: 4px solid #0096FF;
 }
@@ -215,6 +215,7 @@ margin-bottom: 3%;
 border-radius:25px 25px 0 0;
 max-width: 100%;
 aspect-ratio: 2/1;
+object-fit: cover;
 }
 
 .populaires{
@@ -252,6 +253,7 @@ box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
 border-radius: 25px 0 0 25px ;
 width: 45%;
 aspect-ratio: 3/2;
+object-fit: cover;
 }
 
 .popcarddesc{
@@ -491,6 +493,7 @@ width: 22%;
 
 .acimg{
 aspect-ratio: 2.5/3;
+object-fit: cover;
 }
 
 .footer{
@@ -700,6 +703,7 @@ box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
 .hbimg{
 aspect-ratio:3/1;
 width: 100%;
+object-fit: cover;
 }
 
 .thirdtitle{
