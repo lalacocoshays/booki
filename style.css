@@ -228,14 +228,15 @@ border-radius: 20px 20px 20px 20px;
 }
 .hebergementscards{
 display: grid;
-flex-wrap: wrap;
+gap:2%;
+grid-template-columns: repeat(3,47%);
+justify-content: center;
 }
 .hbcardcontent{
 margin-left: 4%;
 background-color: white;
 border-radius: 20px 20px 20px 20px;
 padding: 0.6%;
-width: 27%;
 margin-bottom: 3%;
 }
 
