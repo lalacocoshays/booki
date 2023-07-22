@@ -50,11 +50,30 @@ border-top: 4px solid #0096FF;
 .infobulle{
 display:flex;
 flex-wrap: nowrap;
+align-items: center;
+margin-left: 3%;
+margin-top: 1%;
 }
 
 .bulle{
 width: 24px;
 }
+
+.info{
+font-family: 'Raleway';
+font-size: 16px;
+font-weight: 400;
+margin-left: 1%;
+}
+
+.afficherplus{
+font-family: 'Raleway';
+font-size: 16px;
+margin-left: 7%;
+font-weight: 700;
+margin-bottom: 1%;
+}
+
 .firsttitle{
 font-family: 'Raleway', sans-serif;
 font-size: 22px;
@@ -69,7 +88,6 @@ font-family: 'Raleway';
 font-size: 16px;
 font-weight: 400;
 margin-left: 3%;
-margin-top: 0.5%;
 }
 
 .thirdtitle{
@@ -201,27 +219,28 @@ margin-right: 3%;
 }
 
 .hebergements{
-width:60%;
+width:67%;
 }
 
 .hebergements,.populaires{
 background-color: #F2F2F2;
-border-radius: 25px 25px 25px 25px;
+border-radius: 20px 20px 20px 20px;
 }
 .hebergementscards{
-display: flex;
+display: grid;
 flex-wrap: wrap;
 }
 .hbcardcontent{
 margin-left: 4%;
 background-color: white;
-border-radius: 25px 25px 25px 25px;
+border-radius: 20px 20px 20px 20px;
 padding: 0.6%;
 width: 27%;
 margin-bottom: 3%;
 }
+
 .hbimg{
-border-radius:25px 25px 0 0;
+border-radius:20px 20px 0 0;
 max-width: 100%;
 aspect-ratio: 2/1;
 object-fit: cover;
@@ -229,9 +248,16 @@ object-fit: cover;
 
 
 .populaires{
-margin-left: 3%;
-width: 40%;
+width: 30%;
 }
+
+.populairescards{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
 
 .poptitleandicon{
 display: flex;
@@ -250,12 +276,10 @@ color:blue;
 .popcardcontent{
 display: flex;
 background-color: white;
-padding: 0.8%;
+padding: 1%;
 border-radius: 25px 25px 25px 25px;
-margin-left: 8%;
-margin-right: 8%;
-margin-bottom: 5%;
-margin-top: 3%;
+width: 80%;
+margin-bottom: 8%;
 box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -396,6 +420,9 @@ margin-left:unset;
 font-size: 14px;
 }
 
+.infobulle{
+margin-left:unset;
+}
 .thirdtitle{
 font-size:18px;
 margin-left:5%;
@@ -588,6 +615,14 @@ margin-top: 8%;
 .secondtitle{
 margin-left: 10%;
 margin-top: 3%;
+}
+
+.infobulle{
+margin-left: 10%;
+}
+
+#plus{
+display: none;
 }
 
 .searchbar{
