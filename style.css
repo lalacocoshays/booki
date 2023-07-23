@@ -15,6 +15,9 @@ margin-left: 3%;
 width: 40%;
 }
 
+
+
+
 .heberactiv{
 display: flex;
 flex-wrap: nowrap;
@@ -83,38 +86,6 @@ font-weight: 400;
 margin-left: 3%;
 }
 
-.thirdtitle{
-font-family: 'Raleway';
-font-weight: 700;
-font-size: 22px;
-margin-left: 5%;
-padding-top: 2%;
-}
-
-.cardtitle{
-font-family: 'Raleway';
-font-size: 16px;
-margin-left: 7%;
-margin-top: 3%;
-margin-bottom: 2%;
-font-weight: 700;
-}
-
-.cardsubtitle{
-font-family: 'Raleway';
-font-size: 14px;
-font-weight: 400;
-margin-left: 7%;
-margin-top: 1%;
-margin-bottom: 2%;
-}
-
-.cardrating{
-color: #0065FC;
-text-align: left;
-margin-left: 7%;
-padding-bottom: 1%;
-}
 
 .searchbar{
 display: flex;
@@ -218,9 +189,18 @@ padding-bottom: 3%;
 .hebergements,.populaires{
 background-color: #F2F2F2;
 border-radius: 20px 20px 20px 20px;
+padding-top: 2%;
 }
 
-.hebergementscards{
+.hbtitle{
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 22px;
+margin-left: 5%;
+}
+
+
+.hbcards{
 display: grid;
 gap:7% 3%;
 padding-left: 2%;
@@ -233,6 +213,32 @@ justify-content: center;
 background-color: white;
 border-radius: 20px 20px 20px 20px;
 padding: 2%;
+}
+
+.hbcarddesc{
+display: grid;
+grid-template-columns: repeat(1,100%);
+margin-left: 3%;
+}
+
+.hbcardtitle{
+font-family: 'Raleway';
+font-size: 18px;
+font-weight: 700;
+margin-top: 2%;
+margin-bottom: 2%;
+}
+
+.hbcardsubtitle{
+font-family: 'Raleway';
+font-size: 16px;
+font-weight: 500;
+margin-bottom: 2%;
+}
+
+.hbcardrating{
+color: #0065FC;
+align-self: last baseline;
 }
 
 .hbimg{
@@ -273,14 +279,16 @@ width: 80%;
 font-family: 'Raleway';
 font-size: 24px;
 white-space: nowrap;
+font-weight: 900;
 }
+
 
 #popicon{
 font-size: 30px;
 color:blue;
 }
     
-.populairescards{
+.popcards{
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -318,6 +326,11 @@ font-size: 16px;
 font-weight: 500;
 }
 
+.popcardrating{
+color: #0065FC;
+align-self: last baseline;
+}
+
 .popcardimg{
 border-radius: 25px 0 0 25px ;
 width: 45%;
@@ -325,10 +338,7 @@ object-fit: cover;
 aspect-ratio: 3/3;
 }
 
-.popcardrating{
-color: #0065FC;
-align-self: last baseline;
-}
+
 
 
 .activites{
@@ -452,7 +462,9 @@ font-size: 14px;
 .infobulle{
 margin-left:unset;
 }
-.thirdtitle{
+
+.hbtitle{
+font-family: 'Raleway';
 font-size:18px;
 margin-left:5%;
 padding-top: 3.5%;
@@ -514,7 +526,7 @@ width: 10%;
 font-size: 20px;}
     
 
-.populairescards{
+.popcards{
 display: flex;
 flex-wrap: nowrap;
 margin-right: 4%;
@@ -714,10 +726,7 @@ font-size: 20px;
 font-size: 17px;
 }
 
-.thirdtitle{
-font-size: 22px;
-margin-left: 10%;
-}
+
 
 .fltrbtn{
 display: grid;
@@ -748,7 +757,7 @@ border-radius: 0px;
 padding-bottom: 6%;
 }
 
-.populairescards{
+.popcards{
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -763,7 +772,7 @@ font-size: 22px;
 background-color: white;
 padding-bottom: 12%;
 }
-.hebergementscards{
+.hbcards{
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -782,7 +791,7 @@ width: 100%;
 object-fit: cover;
 }
 
-.thirdtitle{
+.hbtitle{
 font-size: 22px;
 margin-left: 10%;
 }
