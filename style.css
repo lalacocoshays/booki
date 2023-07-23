@@ -300,10 +300,10 @@ justify-content: center;
 display: flex;
 background-color: white;
 padding: 1%;
-border-radius: 25px 25px 25px 25px;
+border-radius: 15px 15px 15px 15px;
 width: 80%;
 margin-bottom: 8%;
-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .popcarddesc{
@@ -332,12 +332,11 @@ align-self: last baseline;
 }
 
 .popcardimg{
-border-radius: 25px 0 0 25px ;
+border-radius: 15px 0 0 15px ;
 width: 45%;
 object-fit: cover;
 aspect-ratio: 3/3;
 }
-
 
 
 
@@ -449,26 +448,11 @@ padding: 30% 20%;
 
 .heberactiv{width:35%;}
 
-.firsttitle{
-font-size:18px;
-margin-left: unset;
-}
-.secondtitle{
-margin-top: 1%;
-margin-left:unset;
-font-size: 14px;
-}
 
 .infobulle{
 margin-left:unset;
 }
 
-.hbtitle{
-font-family: 'Raleway';
-font-size:18px;
-margin-left:5%;
-padding-top: 3.5%;
-}
 
 .searchbar{
 margin-left: unset;
@@ -485,10 +469,12 @@ padding-left: 1.5%;
 width: unset;
 font-size: 13px;
 }
+
 .inputcity{
 width: 21%;
 font-size: 13px;
 }
+
 .searchbutton{
 font-size: 13px;
 }
@@ -507,16 +493,11 @@ main{display: block;
 margin-left:unset;
 margin-right:unset;}
 
-.hebergements{
+.hebergements,.populaires{
 width: 100%;
 margin-top: 6%;
-}
-
-.populaires{
-width: 100%;
 margin: unset;
 margin-top: 6%;
-margin-bottom: 6%;
 }
 
 .poptitleandicon{padding-top: 0%;}
@@ -525,29 +506,24 @@ margin-bottom: 6%;
 width: 10%;
 font-size: 20px;}
     
-
 .popcards{
-display: flex;
-flex-wrap: nowrap;
-margin-right: 4%;
-margin-left: 4%;
-padding-bottom: 5%;
-justify-content: space-between;
+display: grid;
+justify-content: center;
+align-items: unset;
+grid-template-columns: repeat(3, 30%);
+gap: 0% 2.5%;
+padding-left: 1%;
+padding-right: 1%;
+padding-bottom: 7%;
 }
 
 .popcardcontent{
-margin:unset;
-width:30%;
+width: unset;
 }
 
-
-.popimg{
-width: 40%;
-object-fit:cover;}
-
-.popcarddesc{width: unset;}
-
-.cardsubtitle{font-size: 12px;}
+.popcardtitle, .popcardsubtitle{
+font-size: 13px;
+}
 
 .activites{
 margin-bottom: 9%;
@@ -762,7 +738,8 @@ display: flex;
 flex-direction: column;
 align-items: center;
 margin-right: unset;
-margin-left: unset;}
+margin-left: unset;
+}
 
 #popicon{
 width: 15%;
@@ -782,7 +759,8 @@ align-items: center;
 width: 85%;
 border: 0.5px solid lightgray;
 margin-left: unset;
-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+margin-bottom: 7%;
 }
 
 .hbimg{
